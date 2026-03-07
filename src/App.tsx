@@ -586,7 +586,7 @@ function MenuUpdateForm({ formData, setFormData, onSubmit }: { formData: any, se
             </p>
             
             <div className="flex flex-col gap-2">
-              <p className="text-5xl font-black text-white tracking-tight">+91 98765 43210 | Petpooja Support</p>
+              <p className="text-5xl font-black text-white tracking-tight"> +91 7969223344 | Petpooja Support</p>
               <p className="text-2xl font-black text-red-300">support@petpooja.com</p>
             </div>
           </div>
@@ -618,7 +618,7 @@ function MenuUpdateForm({ formData, setFormData, onSubmit }: { formData: any, se
               <Input label="Restaurant Name" placeholder="e.g. Spice Garden" value={formData.restaurantName} onChange={(v: string) => updateField('restaurantName', v)} />
               <Input label="Petpooja ID" placeholder="e.g. PP123456" value={formData.petpoojaId} onChange={(v: string) => updateField('petpoojaId', v)} />
               <Input label="Owner Name" placeholder="e.g. Ramesh Patel" value={formData.ownerName} onChange={(v: string) => updateField('ownerName', v)} />
-              <Input label="Contact Number" placeholder="+91 98765 43210" value={formData.contactNumber} onChange={(v: string) => updateField('contactNumber', v)} />
+              <Input label="Contact Number" placeholder=" +91 7969223344" value={formData.contactNumber} onChange={(v: string) => updateField('contactNumber', v)} />
               <Input label="Email Address" type="email" placeholder="owner@restaurant.com" value={formData.email} onChange={(v: string) => updateField('email', v)} />
             </div>
           </StepCard>
