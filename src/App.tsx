@@ -1547,7 +1547,7 @@ function MenuFormatGuide() {
             Open Excel File
           </a>
           <p className="text-sm font-bold text-stone-600">
-            Owner can download this file, edit it, and share the updated sheet.
+            *For better management, we recommend preparing the menu in an Excel file. This makes it easier to create, understand, and update the menu whenever needed.
           </p>
         </div>
         <table className="w-full min-w-[760px] border-collapse">
