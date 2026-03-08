@@ -1546,7 +1546,7 @@ function MenuFormatGuide() {
           >
             Open Excel File
           </a>
-          <p className="text-sm font-bold text-stone-600">
+          <p className="text-sm font-bold text-stone-600 bg-red-500">
             *For better management, we recommend preparing the menu in an Excel file. This makes it easier to create, understand, and update the menu whenever needed.
           </p>
         </div>
