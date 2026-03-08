@@ -331,7 +331,7 @@ export default function App() {
                 <div className="bg-white rounded-[34px] border border-stone-200 shadow-[0_22px_60px_rgba(28,10,8,0.22)] p-8 md:p-12 text-center">
                   <div className="text-7xl mb-5">🎉</div>
                   <h2 className="text-5xl font-black text-[#1A0806] mb-3">Request Submitted!</h2>
-                  <p className="text-[#B07D69] text-2xl font-bold mb-8 bg-red-500">This section is for guidance only. No email will be sent directly from here. It is provided solely to help you review and share the email with proper and complete details.</p>
+                  <p className="text-black text-2xl font-bold mb-8 bg-red-500">This section is for guidance only. No email will be sent directly from here. It is provided solely to help you review and share the email with proper and complete details.</p>
 
                   <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
                     <span className="px-4 py-2 rounded-full bg-red-50 border border-red-100 text-sm font-black text-red-700">
