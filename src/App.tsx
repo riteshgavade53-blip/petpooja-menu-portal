@@ -196,7 +196,7 @@ export default function App() {
   };
 
   const navItems = [
-    { id: 'menu-update', label: 'Menu Update *(Guidance Only)', icon: LayoutDashboard, color: 'text-red-600' },
+    { id: 'menu-update', label: 'Menu Update Mail *(Guidance Only)', icon: LayoutDashboard, color: 'text-red-600' },
     { id: 'price-update', label: 'Price Update Guide', icon: Tag, color: 'text-blue-600' },
     { id: 'item-addition', label: 'Item Addition Guide', icon: PlusCircle, color: 'text-emerald-600' },
     { id: 'menu-format', label: 'Menu Format Guide', icon: FileText, color: 'text-amber-600' },
