@@ -1104,6 +1104,7 @@ function PriceUpdateGuideLegacy({ onProceed, onSubmit, formData, setFormData }: 
 
 function PriceUpdateGuide() {
   const [lang, setLang] = useState<'en' | 'hi'>('en');
+  const pdfUrl = encodeURI('/Price Update Guide/(1) Learn how to Price update in the menu (4).pdf');
   const content = {
     en: {
       title: 'How to Update Menu Prices',
@@ -1231,6 +1232,29 @@ function PriceUpdateGuide() {
       </div>
 
       <div className="relative z-10 p-6 md:p-10">
+        <div className="mb-8 rounded-2xl border border-cyan-300/35 bg-black/25 p-4 md:p-6">
+          <div className="flex items-center justify-between gap-3">
+            <p className="text-sm md:text-base font-bold text-cyan-200">
+              {lang === 'en' ? 'Quick PDF Guide' : 'PDF Guide'}
+            </p>
+            <a
+              href={pdfUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-xs md:text-sm font-black text-cyan-200 hover:text-cyan-100 underline"
+            >
+              {lang === 'en' ? 'Open in New Tab' : 'New Tab mein kholo'}
+            </a>
+          </div>
+          <div className="mt-4 overflow-hidden rounded-xl border border-white/20 bg-black/30">
+            <iframe
+              title="Price Update Guide PDF"
+              src={`${pdfUrl}#toolbar=1&navpanes=0`}
+              className="w-full h-[520px]"
+            />
+          </div>
+        </div>
+
         <div className="flex justify-end gap-2 mb-6">
           <button
             type="button"
@@ -1298,6 +1322,7 @@ function PriceUpdateGuide() {
 
 function ItemAdditionGuide() {
   const [lang, setLang] = useState<'en' | 'hi'>('en');
+  const pdfUrl = encodeURI('/Item Addition Guide/(3) How To Item Additon in Menu (4).pdf');
   const content = {
     en: {
       title: 'How to Add a Menu Item in PetPooja POS',
@@ -1353,6 +1378,29 @@ function ItemAdditionGuide() {
       </div>
 
       <div className="relative z-10 p-6 md:p-10">
+        <div className="mb-8 rounded-2xl border border-pink-300/35 bg-black/25 p-4 md:p-6">
+          <div className="flex items-center justify-between gap-3">
+            <p className="text-sm md:text-base font-bold text-pink-200">
+              {lang === 'en' ? 'Quick PDF Guide' : 'PDF Guide'}
+            </p>
+            <a
+              href={pdfUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-xs md:text-sm font-black text-pink-200 hover:text-pink-100 underline"
+            >
+              {lang === 'en' ? 'Open in New Tab' : 'New Tab mein kholo'}
+            </a>
+          </div>
+          <div className="mt-4 overflow-hidden rounded-xl border border-white/20 bg-black/30">
+            <iframe
+              title="Item Addition Guide PDF"
+              src={`${pdfUrl}#toolbar=1&navpanes=0`}
+              className="w-full h-[520px]"
+            />
+          </div>
+        </div>
+
         <div className="flex justify-end gap-2 mb-6">
           <button
             type="button"
@@ -1649,4 +1697,3 @@ function GuideStep({ number, title, hindi, content }: any) {
     </TiltCard>
   );
 }
-
