@@ -366,7 +366,7 @@ export default function App() {
                     onClick={() => setIsEmailPreviewOpen(false)}
                   >
                     <div
-                      className="w-full max-w-5xl rounded-[28px] bg-white border border-stone-200 shadow-[0_24px_70px_rgba(0,0,0,0.25)] p-6 md:p-8"
+                      className="w-full max-w-3xl rounded-[28px] bg-white border border-stone-200 shadow-[0_24px_70px_rgba(0,0,0,0.25)] p-6 md:p-8"
                       onClick={(e) => e.stopPropagation()}
                     >
                       <div className="flex items-start justify-between gap-4 mb-6">
