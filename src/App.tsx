@@ -756,7 +756,7 @@ function MenuUpdateForm({ formData, setFormData, onSubmit }: { formData: any, se
               >
                 <div className="space-y-6">
                   <div className="grid grid-cols-2 gap-4">
-                    {['Price Update', 'Item Addition', 'Item Removal', 'Full Overhaul'].map((t) => (
+                    {['Price Update', 'Item Addition', 'Item Removal', 'Full Menu Update'].map((t) => (
                       <RadioOption 
                         key={t} 
                         label={t} 
