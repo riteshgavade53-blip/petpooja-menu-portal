@@ -1250,7 +1250,7 @@ function PriceUpdateGuide() {
             <iframe
               title="Price Update Guide PDF"
               src={`${pdfUrl}#toolbar=1&navpanes=0`}
-              className="w-full h-[520px]"
+              className="w-full h-[760px]"
             />
           </div>
         </div>
@@ -1396,7 +1396,7 @@ function ItemAdditionGuide() {
             <iframe
               title="Item Addition Guide PDF"
               src={`${pdfUrl}#toolbar=1&navpanes=0`}
-              className="w-full h-[520px]"
+              className="w-full h-[760px]"
             />
           </div>
         </div>
