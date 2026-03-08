@@ -365,10 +365,7 @@ export default function App() {
                     className="fixed inset-0 z-[100] bg-black/45 backdrop-blur-[2px] flex items-center justify-center p-4"
                     onClick={() => setIsEmailPreviewOpen(false)}
                   >
-                    <div
-                      className="w-full max-w-5xl rounded-[28px] bg-white border border-stone-200 shadow-[0_24px_70px_rgba(0,0,0,0.25)] p-6 md:p-8"
-                      onClick={(e) => e.stopPropagation()}
-                    >
+                    <div class="w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-[28px] bg-white border border-stone-200 shadow-[0_24px_70px_rgba(0,0,0,0.25)] p-6 md:p-8">
                       <div className="flex items-start justify-between gap-4 mb-6">
                         <div className="flex items-start gap-4">
                           <div className="w-14 h-14 rounded-2xl bg-red-50 text-red-600 flex items-center justify-center text-3xl">📧</div>
