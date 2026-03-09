@@ -1361,7 +1361,7 @@
           { title: 'Step 9: Add Variations', body: 'Add sizes like Small, Medium, Large.' },
           { title: 'Step 10: Add Addons', body: 'Enable addons for extra toppings.' },
           { title: 'Step 11: Save the Item', body: 'Click Save & Exit.' },
-          { title: 'Step 12: Activate and Sync', body: 'Activate item and sync menu for Swiggy and Zomato.' },
+          { title: 'Step 12: Activate and Sync', body: 'Activate item and Trigger menu for Swiggy and Zomato.' },
         ],
       },
       hi: {
