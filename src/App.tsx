@@ -381,10 +381,13 @@
 
                   {isEmailPreviewOpen && (
                     <div
-                      className="fixed inset-0 z-[100] bg-black/45 backdrop-blur-[2px] flex items-center justify-center p-4"
+                      className="fixed inset-0 z-[200] bg-black/45 backdrop-blur-[2px] flex items-center justify-center p-4"
                       onClick={() => setIsEmailPreviewOpen(false)}
                     >
-                      <div className="w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-[28px] bg-white border border-stone-200 shadow-[0_24px_70px_rgba(0,0,0,0.25)] p-4 sm:p-6 md:p-8">
+                      <div
+                        className="relative z-[201] w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-[28px] bg-white border border-stone-200 shadow-[0_24px_70px_rgba(0,0,0,0.25)] p-4 sm:p-6 md:p-8"
+                        onClick={(e) => e.stopPropagation()}
+                      >
                         <div className="flex items-start justify-between gap-3 sm:gap-4 mb-6">
                           <div className="flex items-start gap-4">
                             <div className="w-14 h-14 rounded-2xl bg-red-50 text-red-600 flex items-center justify-center text-3xl">📧</div>
@@ -829,7 +832,7 @@
         </div>
         {!canSubmit && (
           <p className="text-center text-sm font-black text-red-600">
-            “Some steps are still pending. Please complete them first; after that, the Submit button will appear.”
+            Some steps are still pending. Please complete them first; after that, the Submit button will appear.
           </p>
         )}
       </div>
@@ -1361,7 +1364,7 @@
           { title: 'Step 9: Add Variations', body: 'Add sizes like Small, Medium, Large.' },
           { title: 'Step 10: Add Addons', body: 'Enable addons for extra toppings.' },
           { title: 'Step 11: Save the Item', body: 'Click Save & Exit.' },
-          { title: 'Step 12: Activate and Sync', body: 'Activate item and Trigger menu for Swiggy and Zomato.' },
+          { title: 'Step 12: Activate and Sync', body: 'Activate item and sync menu for Swiggy and Zomato.' },
         ],
       },
       hi: {
@@ -1382,7 +1385,7 @@
           { title: 'स्टेप 9: Variations जोड़ें', body: 'Small, Medium, Large जैसे size जोड़ें।' },
           { title: 'स्टेप 10: Addons जोड़ें', body: 'Extra toppings के लिए addons enable करें।' },
           { title: 'स्टेप 11: Item सेव करें', body: 'Save & Exit पर क्लिक करें।' },
-          { title: 'स्टेप 12: Activate और Sync करें', body: 'Item activate करें और Menu Trigger करें ताकि Swiggy और Zomato पर दिखे।' },
+          { title: 'स्टेप 12: Activate और Sync करें', body: 'Item activate करें और menu sync करें ताकि Swiggy और Zomato पर दिखे।' },
         ],
       },
     }[lang];
