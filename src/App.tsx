@@ -829,7 +829,7 @@
         </div>
         {!canSubmit && (
           <p className="text-center text-sm font-black text-red-600">
-            Step pending hai. Submit par first incomplete step open ho jayega.
+            “Some steps are still pending. Please complete them first; after that, the Submit button will appear.”
           </p>
         )}
       </div>
