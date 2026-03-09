@@ -292,7 +292,7 @@
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 min-w-0 overflow-y-auto relative z-10 ml-0 md:ml-72">
+        <main className="flex-1 min-w-0 overflow-y-auto relative ml-0 md:ml-72">
           <header className="h-20 md:h-24 bg-white/70 backdrop-blur-md border-b border-red-50/50 sticky top-0 z-40 px-4 sm:px-6 md:px-10 flex items-center justify-between gap-3">
             <div>
               <motion.h2
