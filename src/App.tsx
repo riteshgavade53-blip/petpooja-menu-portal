@@ -1271,7 +1271,7 @@
             <div className="mt-4 overflow-hidden rounded-xl border border-white/20 bg-black/30">
               <iframe
                 title="Price Update Guide PDF"
-                src={`${pdfUrl}#toolbar=1&navpanes=0`}
+                src={`${pdfUrl}#toolbar=1&navpanes=0&zoom=135`}
                 className="w-full h-[760px]"
               />
             </div>
@@ -1417,7 +1417,7 @@
             <div className="mt-4 overflow-hidden rounded-xl border border-white/20 bg-black/30">
               <iframe
                 title="Item Addition Guide PDF"
-                src={`${pdfUrl}#toolbar=1&navpanes=0`}
+                src={`${pdfUrl}#toolbar=1&navpanes=0&zoom=135`}
                 className="w-full h-[760px]"
               />
             </div>
@@ -1667,7 +1667,7 @@
             })}
           </div>
           {pdfUrl ? (
-            <iframe title="Menu PDF sample" src={pdfUrl} className="w-full h-[520px] md:h-[760px] rounded-xl border border-stone-200 bg-stone-50" />
+            <iframe title="Menu PDF sample" src={`${pdfUrl}#zoom=135`} className="w-full h-[520px] md:h-[760px] rounded-xl border border-stone-200 bg-stone-50" />
           ) : (
             <p className="text-stone-500 font-bold">Loading PDF sample...</p>
           )}
