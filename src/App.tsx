@@ -1382,7 +1382,7 @@
           { title: 'स्टेप 9: Variations जोड़ें', body: 'Small, Medium, Large जैसे size जोड़ें।' },
           { title: 'स्टेप 10: Addons जोड़ें', body: 'Extra toppings के लिए addons enable करें।' },
           { title: 'स्टेप 11: Item सेव करें', body: 'Save & Exit पर क्लिक करें।' },
-          { title: 'स्टेप 12: Activate और Sync करें', body: 'Item activate करें और menu sync करें ताकि Swiggy और Zomato पर दिखे।' },
+          { title: 'स्टेप 12: Activate और Sync करें', body: 'Item activate करें और Menu Trigger करें ताकि Swiggy और Zomato पर दिखे।' },
         ],
       },
     }[lang];
